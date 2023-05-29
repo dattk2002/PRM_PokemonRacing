@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                 ||sb_player5.getProgress()>=goal && chosen !=5)||sb_player6.getProgress()>=goal && chosen !=6))
                 {
                     this.cancel();
-                    Toast.makeText(MainActivity.this, "You are loser", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "You lose!", Toast.LENGTH_SHORT).show();
                     bt_continue.setVisibility(View.VISIBLE);
                     tv_point.setText(Integer.parseInt(tv_point.getText().toString())-10+"");
                 }
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
                     if(Integer.parseInt(tv_point.getText().toString())<=0)
                     {
                         // nếu điểm âm thì đặt lại như ban đầu
-                        Toast.makeText(MainActivity.this, "You lost all of your point\n This is new game", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "You lost all of your pokeball\n This is new game", Toast.LENGTH_SHORT).show();
                         tv_point.setText("100");
                     }
                     iv_play.setVisibility(View.INVISIBLE);

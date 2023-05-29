@@ -6,26 +6,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/bg3">
+    android:background="@drawable/bg1">
 
     <ImageView
         android:id="@+id/ImageView_coin"
-        android:layout_width="38dp"
-        android:layout_height="35dp"
+        android:layout_width="28dp"
+        android:layout_height="32dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintHorizontal_bias="0.793"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.219"
+        app:layout_constraintVertical_bias="0.251"
         app:srcCompat="@drawable/ball" />
 
     <TextView
         android:id="@+id/TextView_point"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
+        android:layout_width="51dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="340dp"
         android:text="100"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,7 +34,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.212" />
+        app:layout_constraintVertical_bias="0.247" />
 
     <ImageView
         android:id="@+id/ImageView_logo"
